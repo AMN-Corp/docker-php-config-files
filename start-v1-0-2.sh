@@ -4,7 +4,7 @@ service cron start
 
 /usr/sbin/apachectl -D FOREGROUND
 
-ping 127.0.0.1 -n 10 > nul
+sleep 10s # Waits 5 seconds.
 
 whoami
 
