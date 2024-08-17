@@ -4,6 +4,8 @@ service cron start
 
 /usr/sbin/apachectl -D FOREGROUND
 
+ping 127.0.0.1 -n 10 > nul
+
 whoami
 
 base_link=/var/www/html
