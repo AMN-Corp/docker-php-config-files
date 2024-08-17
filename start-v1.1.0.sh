@@ -6,8 +6,6 @@ service cron start
 
 whoami
 
-export COMPOSER_ALLOW_SUPERUSER=1
-
 base_link=/var/www/html
 
 echo ${base_link}
