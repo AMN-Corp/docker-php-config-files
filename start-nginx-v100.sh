@@ -1,0 +1,5 @@
+#!/bin/bash
+
+service cron start
+
+/usr/bin/supervisord -c /etc/supervisor/conf.d/supervisord.conf
